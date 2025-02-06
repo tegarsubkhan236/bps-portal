@@ -1,0 +1,40 @@
+@import 'rsuite/dist/rsuite.min.css';
+
+.sidebar-page {
+    background: var(--rs-bg-well);
+    min-height: 100vh;
+    /*max-width: 100vw;*/
+}
+
+.rs-sidebar {
+    min-height: 100vh;
+    background: var(--rs-body);
+}
+
+.rs-sidenav {
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.page-brand {
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #fff;
+    background: #000;
+}
+
+.page-brand > .rs-text {
+    color: #fff;
+}
+
+.page-header {
+    padding: 20px 20px 0 20px;
+}
+
+.rs-content {
+    padding: 0 20px;
+}
+
+.rs-panel {
+    background: var(--rs-body);
+}
